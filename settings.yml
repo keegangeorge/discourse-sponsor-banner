@@ -1,0 +1,25 @@
+image_urls:
+  type: list
+  default: ''
+  description:
+    en: 'The sponsor images to display in the banner'
+banner_background_color:
+  type: string
+  default: 'var(--header_background)'
+  description:
+    en: 'The background color of the banner. Use CSS variables or HEX codes'
+banner_item_gap:
+  type: string
+  default: '2rem'
+  description:
+    en: 'The size of the gap between the banner items'
+banner_padding:
+  type: string
+  default: '1rem 0'
+  description:
+    en: "The size of the padding the banner has around it's content"
+image_max_size:
+  type: string
+  default: '180px'
+  description:
+    en: 'The maximum size of each sponsor image'

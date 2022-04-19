@@ -1,0 +1,12 @@
+.sponsor-banner-container .sponsor-banner {
+  background: #{$banner_background_color};
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: #{$banner_item_gap};
+  padding: #{$banner_padding};
+  img {
+    max-width: #{$image_max_size};
+  }
+}
